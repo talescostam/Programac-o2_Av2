@@ -13,7 +13,7 @@ public class TestaAtualizarDadosDoAluno {
         AlunoFindByIdService alunoFindByIdService = new AlunoFindByIdService();
         AlunoUpdateService alunoUpdateService = new AlunoUpdateService();
 
-        System.out.println("Qual é o id do aluno?");
+        System.out.println("Qual é o id do(a) aluno(a)?");
         Aluno aluno = alunoFindByIdService.buscarAlunoPorId(scanner.nextLong());
 
         String nomeAtual = aluno.getNome();
